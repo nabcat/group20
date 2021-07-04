@@ -1,0 +1,23 @@
+1) Pwd - where are you lokated
+2) Mkdir - create a folder
+3) Cd - go to the folder
+4) Mkdir file1 file2 file3 - create 3 folder
+5) Cd file1/2/3 любую do to any folder 
+6) Touch Linux.txt is.txt fine.txt, file1.json file2.json -create 3txt files and 2json files
+7) Mkdir ilike Marilyn Manson - create 3 folder
+8) Ls (ls -la) - list of folder content
+9) Vim fine.txt -  open the txt file
+10) 1)Linux_is_fine_NO - write there some text
+    2)i_dont_like_it
+11) esc :wq ⬅️ - save and exit
+12) Cd -   exit from folder to level higher
+13) mv is.txt robin.txt ilike - move any 2 files to any another folder
+(mv filename filename foldername)
+14) cp thefirst.txt papka Linux.txt marilyn - copy any 2 files to any other folder
+    (cp filename folder source filename folder goal)
+15) Find Linux.txt - find file by name
+16) tail -f thefirst.txt - view content in real time, lern how is GREP work 
+17) head thefirst.txt    head -3 thefirst (first  lines) - show first few lines
+18) tail thefirst.txt - show last few lines
+19) less thefirst.txt (⬆️⬇️ up and down, q exit) - view content of file
+20) Date - show date and time
