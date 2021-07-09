@@ -1,0 +1,12 @@
+1) summary
+2) description
+3) progect
+4) component
+5) version
+6) severity
+7) priority
+8) status
+9) author
+10) assignet to
+11) steps + results
+12) attachment
