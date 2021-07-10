@@ -1,0 +1,11 @@
+1) operations with files
+2) create file
+3) open file
+4) save documents
+5) print
+6) edit file
+7) cancel
+8) copy
+9) past
+10) delete
+11) search
