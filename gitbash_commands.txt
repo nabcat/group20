@@ -21,3 +21,11 @@
 18) tail thefirst.txt - show last few lines
 19) less thefirst.txt (⬆️⬇️ up and down, q exit) - view content of file
 20) Date - show date and time
+21) 
+#!/bin/bash
+mkdir folder1 folder2 folder3
+cd folder1
+mkdir first
+touch list1.txt list2.txt list3.txt pa1.json pa2.json
+ls
+mv list1.txt pa1.json first
