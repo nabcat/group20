@@ -1,4 +1,4 @@
-Registratinn form bag report
+Registration form bag report
 
 Autor: Ekaterina Nabatchikova
 
@@ -6,7 +6,7 @@ Assigned to Vadim Ksendzov
 
 
 ID: 6    
-Title: The headlene is written incorrectly
+Title: The headline is written incorrectly
 Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
 Steps: open link http://itcareer.pythonanywhere.com/
 Look at the headline 
