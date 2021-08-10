@@ -1,0 +1,347 @@
+Registratinn form bag report
+
+Autor: Ekaterina Nabatchikova
+
+Assigned to Vadim Ksendzov
+
+
+ID: 6    
+Title: The headlene is written incorrectly
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: open link http://itcareer.pythonanywhere.com/
+Look at the headline 
+ER: ITCarrerToday Web Form
+AR: Error: Error: All Fields are Required
+Priority: low
+Severity: 4
+
+ID: 7
+Title: incorrect error message 
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: Enter invalid data in the field
+ER: Error: All Fields are Required
+AR: Error: Error: All Fields are Required
+Priority: low
+Severity: 3
+
+ID: 8
+Title: incorrect messege about successful registration
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input all fields correctly:
+“Ekaterina 
+Nabatchikova 
+Ekaterinaba@gmail.com
+Qwerty56”
+ER: Success! You are registered!
+AR: Success! Hello: Ekaterina Nabatchikova
+Priority: low
+Severity: 4
+
+ID: 9
+Title: incorrect location "submit" on the registration button
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: open link http://itcareer.pythonanywhere.com/
+Look at the registration button 
+ER: "Submit" in the middle of the button
+AR: “Submit” on the right side of the button
+Priority: low
+Severity: 4
+
+ID: 10
+Title: after failed registration the fields empty, modification is not possible 
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input invalid data on registration fields
+ER: information is saved, you can adjust it
+AR: empty field, can not be adjasted
+Priority: mid
+Severity: 2
+
+ID: 13
+Title: no single type 
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps:
+ER: 
+Name.
+Surname.
+Your email address.
+Enter a password.
+AR:
+Name?
+Surname?
+Your email address.
+Enter a password.
+Priority: low
+Severity: 3
+
+ID: 15
+Title: Non-compliance with the requirements of the filling language
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: use russian language for filling the files
+ER: error message
+AR: successful registration 
+Priority: low
+Severity: 3
+
+ID: 2.2
+Title:accept name without uppercase letter (upperase is required)
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input name without uppercase letter 'ekaterina'
+ER: error message (capital letter is requaired)
+AR: succsessful registration
+Priority: Low
+Severity: 3
+
+ID: 4.2
+Title:accept name without uppercase letter (upperase is required)
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input one lowercase letter
+ER: error message 
+AR: successful registration 
+Priority: Low
+Severity: 3
+
+ID: 6.2
+Title: accept name without uppercase letter (upperase is required)
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input 1 letter 
+ER: successful registration 
+AR: error message 
+Priority: Low
+Severity: 3
+
+ID: 7.2
+Title:name could be from 1 to 128 letter
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input 2 letters
+ER: successful registration 
+AR: error message 
+Priority: Low
+Severity: 3
+
+ID: 12.2
+Title: accept name without letters (letters is required)
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input just figures 
+ER: error message 
+AR: successful registration 
+Priority: Low
+Severity: 3
+
+ID: 15.2
+Title:accept name without letters (letters is required)
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input figures and simbols
+ER: error message 
+AR: successful registration 
+Priority: Low
+Severity: 3
+
+ID: 1.3
+Title:spelling error of field surname
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: Look at the spelling error of field  “surame”
+ER: surname field
+AR: surame
+Priority: Low
+Severity: 3
+
+ID: 2.3
+Title:not accept empty surname (fiels is not required)
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps:  leave the field Surname: empty 
+ER: successful registration (field is not required)
+AR: error message 
+Priority: Low
+Severity: 3
+
+ID: 7.3
+Title: not accept uppercase letters surname
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input uppercase letters
+ER: error message 
+AR: successful registration 
+Priority: Low
+Severity: 3
+
+ID: 1.4
+Title:accept registration without email (email is required)
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: leave the email field empty 
+ER: error message 
+AR: successful registration 
+Priority: high 
+Severity: 1
+
+ID: 2.4
+Title:accept registration with incorrect email address
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input incorrect email with (@@)
+ER: error message 
+AR: successful registration 
+Priority: high 
+Severity: 1
+
+ID: 3.4
+Title: accept registration with incorrect email address
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input email with a space ekaterinaba @gmail.com
+ER: error message 
+AR: successful registration 
+Priority: high 
+Severity: 1
+
+
+ID: 4.4
+Title:accept registration with incorrect email address
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input 1 letter
+ER: error message 
+AR: successful registration 
+Priority: high 
+Severity: 1
+
+ID: 5.4
+Title:accept registration with incorrect email address
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input 2 letters 
+ER: error message 
+AR: successful registration 
+Priority: high 
+Severity: 1
+
+ID: 8.4
+Title: accept registration with incorrect email address
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input 16 simbols email address without "@"
+ER: error message 
+AR: successful registration 
+Priority: high 
+Severity: 1
+
+ID: 9.4
+Title: accept registration with incorrect email address
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input 16 simbols email address without "."
+ER: error message 
+AR: successful registration 
+Priority: high 
+Severity: 1
+
+ID: 13.4
+Title: accept registration with incorrect email address
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input just numbers 
+ER: error message 
+AR: successful registration 
+Priority: high 
+Severity: 1
+
+ID: 14.4
+Title: accept registration with incorrect email address
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input just symbols 
+ER: error message 
+AR: successful registration 
+Priority: high 
+Severity: 1
+
+ID: 15.4
+Title: accept registration with incorrect email address
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: Input symbols and numbers without letters 
+ER: error message 
+AR: successful registration 
+Priority: high 
+Severity: 1
+
+ID: 1.5
+Title: accept registration with empty password (password is required)
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps:Leave the password field empty 
+ER: error message
+AR: sucsessful registration
+Priority: high
+Severity: 1
+
+ID: 3.5
+Title:acept password without capital letter (capital letter is required)
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps:Input password without capital letters 
+ER: error message
+AR:succsessful registration
+Priority: high
+Severity: 1
+
+ID: 4.5
+Title: acept password without numbers (numbers is required)
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps:Input password without numbers 
+ER: error message
+AR:succsessful registration
+Priority: high
+Severity: 1
+
+ID: 7.5
+Title: accept password ith 7 symbols (8-3 symbols is required)
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: Input 7 symbols 
+ER: Input 7 symbols 
+AR: succsessful registration
+Priority: high
+Severity: 1
+
+ID: 9.5
+Title: accept password without special symols
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps:Input password without special symbols 
+ER: error message
+AR: succsessful registration
+Priority: high
+Severity: 1
+
+ID: 11.5
+Title: accept password with the space
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input password with the space 
+ER: error message
+AR: succsessful registration
+Priority: high
+Severity: 1
+
+ID: 12.5
+Title: accept password in invalid language
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps:Input password in Russian 
+ER: error message
+AR: succsessful registration
+Priority: hihg
+Severity: 1
+
+
+ID: 13.5
+Title:accept password without letters
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input just symbols 
+ER: error message
+AR: error message
+Priority: high
+Severity: 1
+
+ID: 14.5
+Title: accept password without letters
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input just numbers 
+ER: error message
+AR: succsessful registration
+Priority: high
+Severity: 1
+
+
+ID: 15.5 
+Title: accept password without letters
+Environment: windows 10 pro 20H2 Chrome 91.0.4472.124
+Steps: input symbols and numbers without letters 
+ER: error message
+AR:succsessful registration
+Priority: high
+Severity: 1
